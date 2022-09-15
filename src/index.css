@@ -55,6 +55,7 @@ body {
 
  section {
   margin-top: 8rem;
+  height: 100vh;
  }
 
  section > h2, section >h5 {
@@ -127,3 +128,7 @@ body {
     margin-bottom: 2rem;
   }
  }
+
+ /* .header_socials, scroll_down{
+  display: none;
+ } */
