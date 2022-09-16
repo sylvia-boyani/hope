@@ -48,3 +48,16 @@ header {
     font-weight: 300;
     font-size: 0.9rem;
 }
+
+#logo {
+   width: 100%;
+   max-width: 100px;
+   margin: 0 auto;
+   color: var(--color-light); 
+   display: flex;
+   align-items: center;
+   position: absolute;
+   left: 1;
+   bottom: 30rem;
+
+}

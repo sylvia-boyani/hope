@@ -1,10 +1,12 @@
 import React from 'react'
 import './about.css'
 
-export const about = () => {
+const About = () => {
   return (
-    <section id= "About">About</section>
+    <section id= "About">
+ 
+    </section>
   )
 }
 
-export default about;
+export default About;

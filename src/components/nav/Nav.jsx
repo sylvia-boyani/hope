@@ -6,19 +6,22 @@ import {MdOutlineConstruction} from 'react-icons/md'
 import {FaChurch} from 'react-icons/fa'
 import {BiDonateHeart} from 'react-icons/bi'
 import {MdPermMedia} from 'react-icons/md'
+import {useState} from 'react'
 
-const nav = () => {
+const Nav = () => {
+  
+  const [activeNav, setActiveNav] = useState('#');
   return (
     <nav>
-      <a href="#Home" className="active"><ImHome3 /></a>
-      <a href="#About"><FaUsers /></a>
-      <a href="#experience"><MdOutlineConstruction /></a>
-      <a href="#services"><FaChurch /></a>
-      <a href="#portfolio"><MdPermMedia /></a>
-      <a href="#Donate"><BiDonateHeart /></a>
+      <a href="#Home" onClick={() => setActiveNav('#Home')} className={activeNav=== "#Home" ? "active" : ""}><ImHome3 /></a>
+      <a href="#About" onClick={() => setActiveNav('#About')} className={activeNav=== "#About" ? "active" : ""}><FaUsers /></a>
+      <a href="#experience" onClick={() => setActiveNav('#experience')} className={activeNav=== "#experience" ? "active" : ""}><MdOutlineConstruction /></a>
+      <a href="#services" onClick={() => setActiveNav('#services')} className={activeNav=== "#services" ? "active" : ""}><FaChurch /></a>
+      <a href="#portfolio" onClick={() => setActiveNav('#portfolio')} className={activeNav=== "#portfolio" ? "active" : ""}><MdPermMedia /></a>
+      <a href="#Donate" onClick={() => setActiveNav('#Donate')} className={activeNav=== "#Donate" ? "active" : ""}><BiDonateHeart /></a>
       
     </nav>
   )
 }
 
-export default nav
+export default Nav

@@ -2,6 +2,7 @@ import React from 'react'
 import './header.css'
 import first from '../../assets/six.jpeg'
 import HeaderSocial from "./HeaderSocials"
+import dove from '../../assets/dove.png'
 
 const header = () => {
   return (
@@ -10,6 +11,7 @@ const header = () => {
         <h5>Hello, Welcome to</h5>
         <h1>Tumaini Ministries</h1>
         <h5 className= "text-light">Needing Jesus Christ Together</h5>
+        <img id ="logo" src={dove} alt="" />
         <HeaderSocial />
 
         <div className= "me">
