@@ -3,18 +3,19 @@ import './header.css'
 // import first from '../../assets/six.jpeg'
 import HeaderSocial from "./HeaderSocials"
 import TopNav from './top-nav'
-import dove from '../../assets/dove.png'
+import dove from  '../../assets/dove.png'
+import video from '../../assets/video1.mp4'
 
 const header = () => {
   return (
     <header>
-      <video src={""} autoPlay loop muted />
+      <video id ="vida" src={video} autoPlay loop muted />
         <TopNav /><br></br><br></br>
 
       <div className="container header_container">
         <h5>Hello, Welcome to</h5>
         <h1>Tumaini Ministries</h1>
-        <h5 className= "text-light">Needing Jesus Christ Together</h5>
+        <h3 className= "text-light">Needing Jesus Christ Together</h3>
         <img id ="logo" src={dove} alt="" />
         <HeaderSocial />
         
@@ -23,7 +24,7 @@ const header = () => {
         {/* <img src={first} alt= "First"/> */}
         </div>
 
-        <a href="#contact" className="scroll_down">Scroll Down</a>
+        {/* <a href="#contact" className="scroll_down">Scroll Down</a> */}
 
       </div>
     </header>
