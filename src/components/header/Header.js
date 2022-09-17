@@ -15,7 +15,7 @@ const header = () => {
       <div className="container header_container">
         <h5>Hello, Welcome to</h5>
         <h1>Tumaini Ministries</h1>
-        <h3 className= "text-light">Needing Jesus Christ Together</h3>
+        {/* <h3 className= "text-light">Needing Jesus Christ Together</h3> */}
         <img id ="logo" src={dove} alt="" />
         <HeaderSocial />
         
