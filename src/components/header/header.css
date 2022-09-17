@@ -2,6 +2,13 @@ header {
     height: 100vh;
     padding-top: 7rem;
     overflow:hidden;
+    background-image: url(../../assets/nice.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    /* background-position:50% 50%; */
+    /* image-rendering: pixelated;  */
+    /* image-rendering: -webkit-optimize-contrast; */
 
 }
 
@@ -9,6 +16,7 @@ header {
     text-align: center;
     height: 100%;
     position: cover;
+    margin-top: 30px;
 }
 
 /*=======header_socials==========*/
@@ -36,6 +44,7 @@ header {
     position:absolute;
     left: calc(20%  1rem);
     margin-top: 1rem;
+    margin-bottom: 2rem;
     overflow:hidden;
     padding: 5rem 1.5rem 1.5rem 1.5rem;
 }
@@ -60,4 +69,20 @@ header {
    left: 1;
    bottom: 30rem;
 
+}
+
+.top {
+    flex-direction: row;
+    float: right;
+    align-items: center;
+    height: 70px;
+    line-height: 70px;
+    /* border: 1px  solid green; */
+    /* margin-top: 0px; */
+}
+
+.top a {
+    margin-bottom: 20px;
+    padding: 5rem 1.5rem 1.5rem 1.5rem;
+    
 }
