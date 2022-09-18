@@ -1,6 +1,5 @@
 import React from 'react'
 import './header.css'
-// import first from '../../assets/six.jpeg'
 import HeaderSocial from "./HeaderSocials"
 import TopNav from './top-nav'
 import dove from  '../../assets/dove.png'
@@ -23,9 +22,6 @@ const header = () => {
         <div className= "me">
         {/* <img src={first} alt= "First"/> */}
         </div>
-
-        {/* <a href="#contact" className="scroll_down">Scroll Down</a> */}
-
       </div>
     </header>
   )

@@ -20,6 +20,10 @@
     user-select: none;
 }
 
+.swiper-pagination-clickable  .swiper-pagination-bullet{
+    background-color: white;
+}
+
 .client_review{
     color: var(--color-light);
     font-weight: 300;
