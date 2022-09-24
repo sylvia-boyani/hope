@@ -1,11 +1,12 @@
 import React from 'react'
 import './portfolio.css'
-import img1 from '../../assets/bisho.jpg'
-import img2 from '../../assets/slybw.jpg'
+import img1 from '../../assets/bish.jpeg'
+import img2 from '../../assets/vc.jpeg'
 import img3 from '../../assets/James.jpg'
-import img4 from '../../assets/slybw.jpg'
-import img5 from '../../assets/slybw.jpg'
+import img4 from '../../assets/trez.jpeg'
+import img5 from '../../assets/pronk.jpeg'
 import img6 from '../../assets/concert.jpg'
+
 
 
 const portfolio = () => {
@@ -81,7 +82,7 @@ const portfolio = () => {
           <div className= "portfolio_item-cta">
           <a href="https://github.com/sylvia-boyani" className="btn" target="_blank" rel="noOpener noreferrer">Let's talk</a>
           <a href="https://github.com/sylvia-boyani" className="btn btn-primary" target="_blank" rel="noOpener noreferrer">Read More</a>
-          </div>
+          </div> 
           
         </article>
       </div>

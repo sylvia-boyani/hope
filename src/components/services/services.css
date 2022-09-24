@@ -50,6 +50,14 @@ service_list p{
     font-size: 0.9rem;
 }
 
+button{
+    font-size: 1rem;
+    border-radius: 5%;
+    align-items: center;
+    padding: 2px;
+
+}
+
 @media screen and (max-width: 1024px){
     .services_container{
         grid-template-columns: 1fr 1fr;

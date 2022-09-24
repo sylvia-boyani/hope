@@ -11,7 +11,7 @@ const footer = () => {
       <img id ="logo" src={dove} alt="" />
 
        <ul className="permalinks">
-        <li><a href="#Home">Home</a></li>
+        <li><a href="#header">Home</a></li>
         <li><a href="#About">About</a></li>
         <li><a href="#experience">Projects</a></li>
         <li><a href="#services">News</a></li>

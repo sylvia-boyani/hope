@@ -7,9 +7,10 @@ import video from '../../assets/video1.mp4'
 
 const header = () => {
   return (
-    <header>
+    <section id="header">
+      <header>
       <video id ="vida" src={video} autoPlay loop muted />
-        <TopNav /><br></br><br></br>
+        <TopNav />
 
       <div className="container header_container">
         <h5>Hello, Welcome to</h5>
@@ -23,7 +24,8 @@ const header = () => {
         {/* <img src={first} alt= "First"/> */}
         </div>
       </div>
-    </header>
+      </header>
+    </section>
   )
 }
 

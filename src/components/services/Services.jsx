@@ -54,6 +54,7 @@ export const Services = () => {
               <p>New branch</p>
             </li>
           </ul>
+          <a href="https://github.com/sylvia-boyani" className="btn btn-primary" target="_blank" rel="noOpener noreferrer">Read More</a>
         </article>
 
 
@@ -103,6 +104,7 @@ export const Services = () => {
               <p>Saba saba-Hindi</p>
             </li>
           </ul>
+          <a href="https://github.com/sylvia-boyani" className="btn btn-primary" target="_blank" rel="noOpener noreferrer">Read More</a>
         </article>
 
 
@@ -152,6 +154,7 @@ export const Services = () => {
               <p>Mahamasi</p>
             </li>
           </ul>
+          <a href="https://github.com/sylvia-boyani" className="btn btn-primary" target="_blank" rel="noOpener noreferrer">Read More</a>
         </article>
       </div>
     </section>

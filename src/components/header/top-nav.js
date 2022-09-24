@@ -6,7 +6,7 @@ const TopNav = () => {
   const[activeNav, setActiveNav] = useState('#')
     return (
       <div className= "top">
-        <a href="#Home" onClick={() => setActiveNav('#Home')} className={activeNav=== "#Home" ? "active" : ""}>Home</a>
+      <a href="#header" onClick={() => setActiveNav('#header')} className={activeNav=== "#header" ? "active" : ""}>Home</a>
       <a href="#About" onClick={() => setActiveNav('#About')} className={activeNav=== "#About" ? "active" : ""}>About</a>
       <a href="#experience" onClick={() => setActiveNav('#experience')} className={activeNav=== "#experience" ? "active" : ""}>Projects</a>
       <a href="#services" onClick={() => setActiveNav('#services')} className={activeNav=== "#services" ? "active" : ""}>News</a>

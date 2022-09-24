@@ -1,8 +1,10 @@
 import React from 'react'
 import './testimonials.css'
-import avt0 from '../../assets/concert.jpg'
-import avt1 from '../../assets/kws retreats.jpg'
-import avt2 from '../../assets/missions.jpg'
+import avt0 from '../../assets/mens.jpeg'
+import avt1 from '../../assets/concerts.jpg'
+import avt2 from '../../assets/women.jpeg'
+import avt7 from '../../assets/agm.jpeg'
+import avt4 from '../../assets/kws retreats.jpg'
 
 // import Swiper core and required modules
 import { Pagination } from 'swiper';
@@ -34,7 +36,7 @@ const Testimonials = () => {
           <div className='client_avatar'>
             <img src={avt0} alt="" />
           </div>
-            <h5 className='client_name'>Men Conference</h5>
+            <h5 className='client_name'>Men's Conference</h5>
             <small className='client_review'>
             Lorem Ipsum is simply dummy text of the printing
              and typesetting industry. Lorem Ipsum has been 
@@ -50,7 +52,7 @@ const Testimonials = () => {
 
         <SwiperSlide className="testimonial">
           <div className='client_avatar'>
-            <img src={avt0} alt="" />
+            <img src={avt4} alt="" />
           </div>
             <h5 className='client_name'>Youth Conference</h5>
             <small className='client_review'>
@@ -88,7 +90,7 @@ const Testimonials = () => {
           <div className='client_avatar'>
             <img src={avt2} alt="" />
           </div>
-            <h5 className='client_name'>Women Conference</h5>
+            <h5 className='client_name'>Women's Conference</h5>
             <small className='client_review'>
             Lorem Ipsum is simply dummy text of the printing
              and typesetting industry. Lorem Ipsum has been 
@@ -104,7 +106,7 @@ const Testimonials = () => {
 
         <SwiperSlide className="testimonial">
           <div className='client_avatar'>
-            <img src={avt0} alt="" />
+            <img src={avt7} alt="" />
           </div>
             <h5 className='client_name'>Annual General Meeting</h5>
             <small className='client_review'>

@@ -22,6 +22,10 @@ portfolio_item:hover{
 .portfolio_item-image{
     border-radius: 1.5rem;
     overflow: hidden;
+    height: auto;
+    max-height: 250px;
+    width:auto;
+    max-height: 250px;
 }
 
 portfolio_item h3{
@@ -46,5 +50,14 @@ portfolio_item h3{
     .portfolio_container {
       grid-template-columns: 1fr;
       gap: 1rem;
+    }
+
+    .portfolio_item-image{
+        border-radius: 1.5rem;
+        overflow:hidden;
+        height: auto;
+        max-height: 250px;
+        width:auto;
+        max-height: 250px;  
     }
 }  

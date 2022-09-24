@@ -57,7 +57,7 @@ const Contact = () => {
           </input>
          
         
-          <input  type="integer" name="integer" placeholder='Amount in USD' required />
+          {/* <input  type="integer" name="integer" placeholder='Amount in USD' required /> */}
           <textarea name='message' rows='7' placeholder='Your Message' required></textarea>
           <button type='submit' className='btn btn-primary'>Send </button>
         </form>

@@ -38,8 +38,8 @@ const About = () => {
           </article>
 
         </div>
-        <p>
-          <h3>Our Vision</h3>
+        
+          <h2>Our Vision</h2>
           <p>To rehabilitate slum dwellers and train them and 
              other young people for Christian living and ministry
             through our one year Discipleship program. Offering
@@ -52,12 +52,12 @@ const About = () => {
             To establish social ministries which will meet the needs of slum 
             dwellers as an act of Christian compassion and as a means to
             reach them with the gospel.</p>
-            <h3>Our Mission</h3>
+            <h2>Our Mission</h2>
             <p>To establish leader-ships and fellowships of 
                Christian believers, healthy and stable spiritually, 
               socially, physically and psychologically in the slums
               and other areas of need.</p>
-        </p>
+        
        </div>
      </div>
     </section>

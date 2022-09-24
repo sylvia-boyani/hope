@@ -9,6 +9,8 @@ import Services from './components/services/Services'
 import Testimonials from './components/testimonials/Testimonials'
 import Contact from './components/contact/Contact'
 import Footer from './components/footer/Footer'
+import { dom } from '@fortawesome/fontawesome-svg-core';
+
 
 const App = () => {
   return (
@@ -21,7 +23,7 @@ const App = () => {
    <Portfolio />
    <Testimonials />
    <Contact />
-   <Footer />
+   <Footer />   
    </>
   )
 }

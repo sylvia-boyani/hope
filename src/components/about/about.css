@@ -71,6 +71,9 @@ about_card small{
 .about_content p{
     margin: 1rem 0 0.6rem;
     font-size: 1.0rem;
+    text-align: justify;
+    text-align-last: justify;
+
     /* color: var(--color-light); */
 }
 
