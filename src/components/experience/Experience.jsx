@@ -63,7 +63,7 @@ const experience = () => {
           <article className="experience_details">
             <BsPatchCheckFill />
             <div>
-            <h4>Farming</h4>
+            <h4>Tumaini Schools</h4>
             <small className="text-light">Started</small>
             </div>
           </article>

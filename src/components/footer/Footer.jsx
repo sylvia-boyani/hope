@@ -3,12 +3,12 @@ import './footer.css'
 import {BsFacebook} from 'react-icons/bs'
 import {FiInstagram }from 'react-icons/fi'
 import {BsTwitter} from 'react-icons/bs'
-import dove from  '../../assets/dove.png'
+
 
 const footer = () => {
   return (
        <footer>
-      <img id ="logo" src={dove} alt="" />
+      {/* <img id ="logo" src={dove} alt="" /> */}
 
        <ul className="permalinks">
         <li><a href="#header">Home</a></li>
@@ -26,7 +26,7 @@ const footer = () => {
         </div>
 
         <div className='footer_copyright'>
-         <small>&copy; TUMAINI MINISTRIES. All rights reserved.</small>
+         <small>&copy; 2022 TUMAINI MINISTRIES. All rights reserved.</small>
         </div>
        </footer>    
   )

@@ -78,7 +78,7 @@ const portfolio = () => {
           <div className="portfolio_item-image">
            <img src={img6} alt= ""/>
           </div>
-          <h3>Sunday School Lead</h3>
+          <h3>Children's Pastor</h3>
           <div className= "portfolio_item-cta">
           <a href="https://github.com/sylvia-boyani" className="btn" target="_blank" rel="noOpener noreferrer">Let's talk</a>
           <a href="https://github.com/sylvia-boyani" className="btn btn-primary" target="_blank" rel="noOpener noreferrer">Read More</a>
