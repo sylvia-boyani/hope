@@ -1,7 +1,7 @@
 import React from 'react'
 import './header.css'
 import HeaderSocial from "./HeaderSocials"
-// import TopNav from './top-nav'
+import TopNav from './top-nav'
 import tuma from  '../../assets/tuma.png'
 import video from '../../assets/video1.mp4'
 
@@ -10,7 +10,7 @@ const header = () => {
     <section id="header">
       <header>
       <video id ="vida" src={video} autoPlay loop muted />
-        {/* <TopNav /> */}
+        <TopNav />
 
       <div className="container header_container">
         <h5>Hello, Welcome to</h5>
